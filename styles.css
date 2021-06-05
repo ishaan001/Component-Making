@@ -5,7 +5,11 @@
   --dark-color: #6b7280;
   --offWhite-Section-color: #f3f4f6;
 }
-
+/*spaces*/
+.spaces{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
 body {
   font-family: "Montserrat", sans-serif;
   margin: 0px;
@@ -88,6 +92,12 @@ hr {
 
 .hero-img {
   max-width: 300px;
+  display: block;
+  margin: auto;
+}
+
+.project-img{
+  max-width: 500px;
   display: block;
   margin: auto;
 }
